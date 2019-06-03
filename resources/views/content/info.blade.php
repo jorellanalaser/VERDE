@@ -85,7 +85,7 @@
                     </div>
                 </div>
             </div>
-           <!-- JOMIA
+           <!-- JOMIA 03-06-2019
                 <div class="panel">
                 <div class="panel-heading">
                     <h4 class="panel-title">
