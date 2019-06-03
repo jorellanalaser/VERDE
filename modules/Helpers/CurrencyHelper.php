@@ -1,0 +1,38 @@
+<?php
+/**
+ * Created by SublimeText3.
+ * User: Plopez
+ * Date: 8/09/16
+ * Time: 07:57 PM
+ */
+
+namespace Modules\Helpers;
+
+
+use Illuminate\Support\Facades\Session;
+use Torann\GeoIP\GeoIPFacade as GeoIP;
+
+class CurrencyHelper
+{
+    public static function interceptor($origin,$destination)
+    {
+        $location = GeoIP::getLocation();
+        //$location = ["isoCode" =>'US',];
+        //dd($location);
+        $airport = \Modules\Helpers\AirportHelper::is_int($origin);
+        $airportdes = \Modules\Helpers\AirportHelper::is_int($destination);
+
+        if( (boolval($airport) == true || boolval($airportdes) == true ) && ($location['isoCode'] == 'VE'))
+        {
+            Session::put('currency', 'USD');
+        }
+        elseif(boolval($airport) == false && ($location['isoCode'] == 'VE'))
+        {
+            Session::put('currency', 'VES');
+        }
+        elseif($location['isoCode'] != 'VE')
+        {
+            Session::put('currency', 'USD');
+        }
+    }
+}

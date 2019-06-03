@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><KIU_AirPriceRS EchoToken="1" TimeStamp="2017-04-03T18:06:03+00:00" Target="Testing" Version="3.0" SequenceNmbr="1">
+	<Success/>
+	<PricedItineraries>
+		<PricedItinerary SequenceNumber="1">	
+<AirItinerary>
+                        <OriginDestinationOptions>
+                            
+            <OriginDestinationOption>
+                
+            <FlightSegment DepartureDateTime="2017-04-04 07:30:00" ArrivalDateTime="2017-04-04 08:20:00" FlightNumber="903" ResBookDesigCode="Y">
+                <DepartureAirport LocationCode="PMV"/>
+                <ArrivalAirport LocationCode="CCS"/>
+                <MarketingAirline Code="QL"/>
+            </FlightSegment>
+        
+            </OriginDestinationOption>
+        
+                        </OriginDestinationOptions>
+                    </AirItinerary>
+			<AirItineraryPricingInfo>
+				<ItinTotalFare>
+					<BaseFare Amount="25" CurrencyCode="USD"/>
+					<Taxes>
+						<Tax TaxCode="AK" Amount="1.69" CurrencyCode="USD"/>
+					</Taxes>
+					<TotalFare Amount="26.69" CurrencyCode="USD"/>
+				</ItinTotalFare>
+				<PTC_FareBreakdowns>
+					<PTC_FareBreakdown>
+						<PassengerTypeQuantity Quantity="1" Code="ADT" />
+						<PassengerFare>
+							<BaseFare Amount="25" CurrencyCode="USD"/>
+							<Taxes>
+								<Tax TaxCode="AK" Amount="1.69" CurrencyCode="USD" />
+							</Taxes>
+						</PassengerFare>
+					</PTC_FareBreakdown>
+				</PTC_FareBreakdowns>
+			</AirItineraryPricingInfo>
+		</PricedItinerary>
+	</PricedItineraries>
+	<IssueOfficeInfo OfficeID=""/>
+</KIU_AirPriceRS>
