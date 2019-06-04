@@ -57,7 +57,7 @@
                 </div>
                 <div id="collapse2" class="panel-collapse collapse">
                     <div class="panel-body">
-                        <img src="../img/News_Itin_Inter_Jun2019.png" class="img-responsive">
+                        <img src="../img/News_Itin_Inter_Jun2019_1.png" class="img-responsive">
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@
                 </div>
                 <div id="collapse3" class="panel-collapse collapse">
                     <div class="panel-body">
-                        <img src="../img/News_Itin_Nac_Jun2019.png" class="img-responsive">
+                        <img src="../img/News_Itin_Nac_Jun2019_1.png" class="img-responsive">
                     </div>
                 </div>
             </div>

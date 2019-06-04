@@ -85,7 +85,7 @@
                     </div>
                 </div>
             </div>
-           <!-- JOMIA
+           <!-- JOMIA 03-06-2019
                 <div class="panel">
                 <div class="panel-heading">
                     <h4 class="panel-title">
@@ -617,7 +617,7 @@
                 </div>
                 <div id="collapse17" class="panel-collapse collapse">
                     <div class="panel-body">
-                        <img src="{{ asset('img/PenalxFecha_3.png') }}" class="img-responsive">
+                        <img src="{{ asset('img/PenalxFecha_2.png') }}" class="img-responsive">
                     </div>
                 </div>
             </div>
